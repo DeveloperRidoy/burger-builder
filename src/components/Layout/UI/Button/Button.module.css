@@ -1,0 +1,15 @@
+.Btn {
+  padding: 5px 15px;
+  outline: none;
+  font-weight: bold;
+  border: none;
+}
+
+.Success {
+  color: #17a117;
+}
+
+.Danger {
+  color: #7c1c1c;
+}
+/*# sourceMappingURL=Button.module.css.map */
