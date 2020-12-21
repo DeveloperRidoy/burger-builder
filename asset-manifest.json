@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/burger-builder/static/css/main.e8f8b972.chunk.css",
-    "main.js": "/burger-builder/static/js/main.9bb7e4be.chunk.js",
-    "main.js.map": "/burger-builder/static/js/main.9bb7e4be.chunk.js.map",
-    "runtime-main.js": "/burger-builder/static/js/runtime-main.7b1cef41.js",
-    "runtime-main.js.map": "/burger-builder/static/js/runtime-main.7b1cef41.js.map",
-    "static/js/2.9dc36dcf.chunk.js": "/burger-builder/static/js/2.9dc36dcf.chunk.js",
-    "static/js/2.9dc36dcf.chunk.js.map": "/burger-builder/static/js/2.9dc36dcf.chunk.js.map",
-    "static/js/3.4b1ca1dc.chunk.js": "/burger-builder/static/js/3.4b1ca1dc.chunk.js",
-    "static/js/3.4b1ca1dc.chunk.js.map": "/burger-builder/static/js/3.4b1ca1dc.chunk.js.map",
+    "main.css": "/burger-builder/static/css/main.b313afc0.chunk.css",
+    "main.js": "/burger-builder/static/js/main.dfbf494b.chunk.js",
+    "main.js.map": "/burger-builder/static/js/main.dfbf494b.chunk.js.map",
+    "runtime-main.js": "/burger-builder/static/js/runtime-main.11f11141.js",
+    "runtime-main.js.map": "/burger-builder/static/js/runtime-main.11f11141.js.map",
+    "static/js/2.7e0e009e.chunk.js": "/burger-builder/static/js/2.7e0e009e.chunk.js",
+    "static/js/2.7e0e009e.chunk.js.map": "/burger-builder/static/js/2.7e0e009e.chunk.js.map",
+    "static/js/3.bcb72658.chunk.js": "/burger-builder/static/js/3.bcb72658.chunk.js",
+    "static/js/3.bcb72658.chunk.js.map": "/burger-builder/static/js/3.bcb72658.chunk.js.map",
     "index.html": "/burger-builder/index.html",
-    "static/css/main.e8f8b972.chunk.css.map": "/burger-builder/static/css/main.e8f8b972.chunk.css.map",
-    "static/js/2.9dc36dcf.chunk.js.LICENSE.txt": "/burger-builder/static/js/2.9dc36dcf.chunk.js.LICENSE.txt",
+    "static/css/main.b313afc0.chunk.css.map": "/burger-builder/static/css/main.b313afc0.chunk.css.map",
+    "static/js/2.7e0e009e.chunk.js.LICENSE.txt": "/burger-builder/static/js/2.7e0e009e.chunk.js.LICENSE.txt",
     "static/media/Logo.92ce48cf.png": "/burger-builder/static/media/Logo.92ce48cf.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7b1cef41.js",
-    "static/js/2.9dc36dcf.chunk.js",
-    "static/css/main.e8f8b972.chunk.css",
-    "static/js/main.9bb7e4be.chunk.js"
+    "static/js/runtime-main.11f11141.js",
+    "static/js/2.7e0e009e.chunk.js",
+    "static/css/main.b313afc0.chunk.css",
+    "static/js/main.dfbf494b.chunk.js"
   ]
 }
