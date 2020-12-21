@@ -1,0 +1,26 @@
+.DrawerToggle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.DrawerToggle div {
+  width: 25px;
+  height: 2px;
+  background: white;
+  margin: 3px 5px;
+}
+
+@media (min-width: 600px) {
+  .DrawerToggle {
+    display: none;
+  }
+}
+/*# sourceMappingURL=DrawerToggle.module.css.map */

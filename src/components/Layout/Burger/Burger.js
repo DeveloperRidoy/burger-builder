@@ -1,7 +1,7 @@
 import React from 'react';
 import BurgerIngredient from './BurgerIngredient/BurgerIngredient';
 import classes from './Burger.module.scss'
-
+import Spinner2 from '../UI/Spinner/Spinner2/Spinner2';
 const Burger = (props) => {
 
     let transformedIngredients = Object.keys(props.ingredients)
@@ -10,9 +10,12 @@ const Burger = (props) => {
         )
         .reduce((arr,ingredient) => arr.concat(ingredient),[])
 
-    if (transformedIngredients.length === 0) {
-        transformedIngredients = <div className='text-danger'>Please add ingredients</div>
+    if (props.loading) {
+        transformedIngredients = <Spinner2/>
+    }else if (transformedIngredients.length == 0) {
+        transformedIngredients = <div>Please add some ingredients first!</div>
     }
+    
     
     return (
         <div className={classes.Burger}>

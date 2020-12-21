@@ -4,13 +4,14 @@
   background-color: #fff;
   width: 70%;
   border: 1px solid #ccc;
-  padding: 16px;
+  padding: 30px;
   left: 15%;
   top: 30%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-transition: .3s ease-out;
   transition: .3s ease-out;
+  border-radius: 5px;
 }
 
 @media (min-width: 600px) {

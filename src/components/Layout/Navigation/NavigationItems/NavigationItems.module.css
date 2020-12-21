@@ -1,0 +1,63 @@
+.NavigationItems {
+  display: block;
+  height: 100%;
+}
+
+.NavigationItems li {
+  list-style-type: none;
+  margin: 15px 0;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 5px;
+}
+
+.NavigationItems li a {
+  color: #494235;
+  text-decoration: none;
+}
+
+.NavigationItems li:hover {
+  color: #4ba1f1;
+}
+
+@media (min-width: 600px) {
+  .NavigationItems {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%;
+  }
+  .NavigationItems li {
+    list-style-type: none;
+    margin: 0 15px;
+    border-bottom: 5px solid #29a6e0;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .NavigationItems li a {
+    color: white;
+    text-decoration: none;
+  }
+  .NavigationItems li:hover {
+    background: #db8a3e;
+  }
+  .NavigationItems li.active {
+    background: #8f5c2c;
+  }
+}
+/*# sourceMappingURL=NavigationItems.module.css.map */
