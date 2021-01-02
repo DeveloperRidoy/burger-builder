@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "AAAA,AAAA,YAAY,CAAC;EACT,QAAQ,EAAE,KAAK;EACf,GAAG,EAAE,GAAG;EACR,IAAI,EAAE,GAAG;EACT,SAAS,EAAE,qBAAqB;CACnC",
     "sources": [
-        "App.module.scss"
+        "Auth.module.scss"
     ],
     "names": [],
-    "file": "App.module.css"
+    "file": "Auth.module.css"
 }

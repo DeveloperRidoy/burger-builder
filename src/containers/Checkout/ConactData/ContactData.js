@@ -162,7 +162,7 @@ class ContactData extends Component {
                 </form>
             </div>
         )
-             
+            
         this.state.loading && (form = <Spinner/>)
 
         return (form)

@@ -36,8 +36,6 @@
   }
   .NavigationItems li {
     list-style-type: none;
-    margin: 0 15px;
-    border-bottom: 5px solid #29a6e0;
     height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -52,11 +50,25 @@
   .NavigationItems li a {
     color: white;
     text-decoration: none;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 15px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-bottom: 5px solid #29a6e0;
   }
-  .NavigationItems li:hover {
+  .NavigationItems li a:hover {
     background: #db8a3e;
   }
-  .NavigationItems li.active {
+  .NavigationItems li a.active {
     background: #8f5c2c;
   }
 }

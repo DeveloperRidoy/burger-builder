@@ -43,12 +43,18 @@ class Orders extends Component {
        
     }
 
+  cancelOrder = (uid) => {
+    db.collection('orders')
+      .where('uid', '==', uid)
+      
+    }
+  
     render () {
         const orders = this.state.loading
             ? <div style={{ position: 'fixed', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}       ><Spinner /></div>
             : this.state.orders.length === 0 
             ? <div className="py-4 alert alert-secondary text-center">No orders yet</div> 
-            : this.state.orders.map(order => <Order info={order.data} key={order.id} />)
+            : this.state.orders.map(order => <Order info={order.data} key={order.id} clicked={() => this.cancelOrder(order.data.uid)}/>)
 
         return (
             <div className="orders">
