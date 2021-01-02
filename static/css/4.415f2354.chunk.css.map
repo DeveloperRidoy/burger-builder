@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/containers/Auth/Auth.module.scss"],"names":[],"mappings":"AAAA,yBACI,cAAA,CACA,OAAA,CACA,QAAA,CACA,8BAAA","file":"4.415f2354.chunk.css","sourcesContent":[".fixedCenter {\r\n    position: fixed;\r\n    top: 50%;\r\n    left: 50%;\r\n    transform: translate(-50%, -50%);\r\n}"]}
