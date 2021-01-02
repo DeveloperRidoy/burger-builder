@@ -12,7 +12,7 @@ const Burger = (props) => {
 
     if (props.loading) {
         transformedIngredients = <Spinner2/>
-    }else if (transformedIngredients.length == 0) {
+    }else if (transformedIngredients.length === 0) {
         transformedIngredients = <div>Please add some ingredients first!</div>
     }
     

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Div from '../../hoc/Div/Div';
+import Div from '../Div/Div';
 import Modal from '../../components/Layout/UI/Modal/Modal';
 
 const withErrorHandler = (WrappedComponent, error) => {

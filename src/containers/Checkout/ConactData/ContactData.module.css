@@ -1,0 +1,10 @@
+.ContactData {
+    animation: animate .3s 1 ease-out forwards;
+}
+
+
+@keyframes animate {
+    0%{transform: scale(0)}
+    100%{transform: scale(1) }
+}
+

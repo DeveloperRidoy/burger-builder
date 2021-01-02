@@ -3,10 +3,12 @@ import Div from '../../hoc/Div/Div';
 import Toolbar from '../Layout/Navigation/Toolbar/ToolBar';
 import SideDrawer from './Navigation/SideDrawer/SideDrawer';
 
+
 class Layout extends Component {
   
   state = {
-    showSideDrawer : false
+    showSideDrawer: false,
+    authenticated: false
   }
 
   sideDrawerClossedHandler = () => this.setState({ showSideDrawer : false });
@@ -17,12 +19,13 @@ class Layout extends Component {
   );
 
   render () {
-    return (
-      <Div>
-        <Toolbar drawerToggleClicked={this.sideDrawerToggleHandler}/>
-        <SideDrawer open={this.state.showSideDrawer} closed={this.sideDrawerClossedHandler}/>
-        <main style={{ marginTop: "72px" }}>{this.props.children}</main>
-      </Div>
+
+    return ( 
+        <Div>
+          <Toolbar drawerToggleClicked={this.sideDrawerToggleHandler}/>
+          <SideDrawer open={this.state.showSideDrawer} closed={this.sideDrawerClossedHandler}/>
+          <main style={{ marginTop: "72px" }}>{this.props.children}</main>
+        </Div> 
     );
   }
 }
