@@ -64,7 +64,7 @@ class App extends Component {
         <Spinner />
       </div>
     ) : (
-      <BrowserRouter>
+      <BrowserRouter basename='/burger-builder'>
         <WithAuthentication>
           <Layout>
             <Suspense fallback>{routes}</Suspense>
